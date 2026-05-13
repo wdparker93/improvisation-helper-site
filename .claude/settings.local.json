@@ -4,7 +4,10 @@
       "Bash(New-Item -ItemType Directory -Path \"M:\\\\VsCodeRepos\\\\improvisation-helper-site\\\\icons\" -Force)",
       "Bash(Out-Null)",
       "Bash(Write-Output \"Done\")",
-      "Bash(gh release create v1.0.0 ImprovHelper.zip --title 'v1.0.0 — Initial Release' --notes ' *)"
+      "Bash(gh release create v1.0.0 ImprovHelper.zip --title 'v1.0.0 — Initial Release' --notes ' *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }

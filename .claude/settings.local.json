@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Path \"M:\\\\VsCodeRepos\\\\improvisation-helper-site\\\\icons\" -Force)",
+      "Bash(Out-Null)",
+      "Bash(Write-Output \"Done\")"
+    ]
+  }
+}
